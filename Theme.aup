@@ -1,6 +1,6 @@
 <?xml version="1.0" standalone="no" ?>
 <!DOCTYPE project PUBLIC "-//audacityproject-1.3.0//DTD//EN" "http://audacity.sourceforge.net/xml/audacityproject-1.3.0.dtd" >
-<project xmlns="http://audacity.sourceforge.net/xml/" projname="Theme_data" version="1.3.0" audacityversion="2.3.2" sel0="270.2009750567" sel1="378.7216305582" vpos="0" h="0.0000000000" zoom="2.3834111590" rate="44100.0" snapto="off" selectionformat="hh:mm:ss + milliseconds" frequencyformat="Hz" bandwidthformat="octaves">
+<project xmlns="http://audacity.sourceforge.net/xml/" projname="Theme_data" version="1.3.0" audacityversion="2.3.2" sel0="270.2009750600" sel1="270.2009750600" vpos="0" h="262.8585494510" zoom="76.2691570880" rate="44100.0" snapto="off" selectionformat="hh:mm:ss + milliseconds" frequencyformat="Hz" bandwidthformat="octaves">
 	<tags/>
 	<wavetrack name="4" channel="2" linked="0" mute="1" solo="0" height="150" minimized="1" isSelected="0" rate="44100" gain="1.0" pan="0.0" colorindex="0">
 		<waveclip offset="0.00000000" colorindex="0">
@@ -102,21 +102,21 @@
 			<envelope numpoints="0"/>
 		</waveclip>
 	</wavetrack>
-	<wavetrack name="4" channel="2" linked="0" mute="1" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0" colorindex="0"/>
-	<labeltrack name="Label Track" numlabels="13" height="140" minimized="0" isSelected="0">
-		<label t="270.2009750567" t1="283.0633106576" title="Intro of the song"/>
-		<label t="283.0633106576" t1="289.4629478458" title="Loop1"/>
-		<label t="289.4629478458" t1="295.8625850340" title="L1"/>
-		<label t="295.8625850340" t1="302.2630158730" title="Loop2"/>
-		<label t="302.2630158730" t1="308.6634467120" title="L2"/>
-		<label t="308.6634467120" t1="315.0626530612" title="Loop3"/>
-		<label t="315.0626530612" t1="321.4618594104" title="L3"/>
-		<label t="321.4618594104" t1="331.0250340136" title="Song transition to the next section, could be used as an outro as a loop"/>
-		<label t="331.0250340136" t1="337.4234240363" title="Loop4"/>
-		<label t="337.3824468865" t1="343.7431271586" title="L4"/>
-		<label t="343.7431271586" t1="360.7982291994" title="Outro ending option 2"/>
-		<label t="360.7982291994" t1="369.6615852085" title="Transition 1"/>
-		<label t="369.6615852085" t1="378.7216305599" title="Transition 2"/>
+	<wavetrack name="4" channel="2" linked="0" mute="1" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="0"/>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<labeltrack name="Label Track" numlabels="8" height="73" minimized="0" isSelected="0">
+		<label t="0.0000000000" t1="89.6579818594" title="Intro option 1"/>
+		<label t="92.0948948195" t1="181.7624004884" title="Intro option 2"/>
+		<label t="184.0848979592" t1="265.1959863946" title="Outro 1"/>
+		<label t="196.9472335601" t1="209.7456462585" title="L3"/>
+		<label t="209.7456462585" t1="222.5440589569" title="L3"/>
+		<label t="222.5440589569" t1="235.3424716553" title="L3"/>
+		<label t="235.3424716553" t1="248.1408843537" title="L3"/>
+		<label t="248.1408843537" t1="265.1959863946" title="Outro Option 2"/>
 	</labeltrack>
 	<wavetrack name="4" channel="2" linked="0" mute="0" solo="1" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0" colorindex="0">
 		<waveclip offset="0.00000000" colorindex="0">
@@ -364,23 +364,7 @@
 				<controlpoint t="81.107491365777" val="0.042253494263"/>
 			</envelope>
 		</waveclip>
-		<waveclip offset="270.20097506" colorindex="0">
-			<sequence maxsamples="262144" sampleformat="262159" numsamples="567229">
-				<waveblock start="0">
-					<simpleblockfile filename="e0808574.au" len="262144" min="-0.99944" max="0.996083" rms="0.204152"/>
-				</waveblock>
-				<waveblock start="262144">
-					<simpleblockfile filename="e0808f8f.au" len="152542" min="-0.999354" max="0.997987" rms="0.179144"/>
-				</waveblock>
-				<waveblock start="414686">
-					<simpleblockfile filename="e0808662.au" len="152543" min="-1.005814" max="0.997198" rms="0.221504"/>
-				</waveblock>
-			</sequence>
-			<envelope numpoints="1">
-				<controlpoint t="6.175497645212" val="1.000000000000"/>
-			</envelope>
-		</waveclip>
-		<waveclip offset="283.06331066" colorindex="0">
+		<waveclip offset="282.23729671" colorindex="0">
 			<sequence maxsamples="262144" sampleformat="262159" numsamples="282224">
 				<waveblock start="0">
 					<simpleblockfile filename="e0808fe3.au" len="141112" min="-0.999354" max="0.997987" rms="0.181799"/>
@@ -391,7 +375,7 @@
 			</sequence>
 			<envelope numpoints="0"/>
 		</waveclip>
-		<waveclip offset="289.46294785" colorindex="0">
+		<waveclip offset="288.63693390" colorindex="0">
 			<sequence maxsamples="262144" sampleformat="262159" numsamples="282224">
 				<waveblock start="0">
 					<simpleblockfile filename="e0808fe3.au" len="141112" min="-0.999354" max="0.997987" rms="0.181799"/>
@@ -402,7 +386,7 @@
 			</sequence>
 			<envelope numpoints="0"/>
 		</waveclip>
-		<waveclip offset="295.86258504" colorindex="0">
+		<waveclip offset="295.03657109" colorindex="0">
 			<sequence maxsamples="262144" sampleformat="262159" numsamples="282259">
 				<waveblock start="0">
 					<simpleblockfile filename="e080815f.au" len="141129" min="-0.997234" max="0.990425" rms="0.227721"/>
@@ -413,7 +397,7 @@
 			</sequence>
 			<envelope numpoints="0"/>
 		</waveclip>
-		<waveclip offset="302.26301588" colorindex="0">
+		<waveclip offset="301.43700193" colorindex="0">
 			<sequence maxsamples="262144" sampleformat="262159" numsamples="282259">
 				<waveblock start="0">
 					<simpleblockfile filename="e080815f.au" len="141129" min="-0.997234" max="0.990425" rms="0.227721"/>
@@ -424,7 +408,7 @@
 			</sequence>
 			<envelope numpoints="0"/>
 		</waveclip>
-		<waveclip offset="308.66344672" colorindex="0">
+		<waveclip offset="307.83743277" colorindex="0">
 			<sequence maxsamples="262144" sampleformat="262159" numsamples="282205">
 				<waveblock start="0">
 					<simpleblockfile filename="e08089ce.au" len="139283" min="-1.004607" max="0.991097" rms="0.185555"/>
@@ -435,7 +419,7 @@
 			</sequence>
 			<envelope numpoints="0"/>
 		</waveclip>
-		<waveclip offset="315.06265306" colorindex="0">
+		<waveclip offset="314.23663911" colorindex="0">
 			<sequence maxsamples="262144" sampleformat="262159" numsamples="282205">
 				<waveblock start="0">
 					<simpleblockfile filename="e08089ce.au" len="139283" min="-1.004607" max="0.991097" rms="0.185555"/>
@@ -446,7 +430,7 @@
 			</sequence>
 			<envelope numpoints="0"/>
 		</waveclip>
-		<waveclip offset="321.46185941" colorindex="0">
+		<waveclip offset="320.63584546" colorindex="0">
 			<sequence maxsamples="262144" sampleformat="262159" numsamples="421736">
 				<waveblock start="0">
 					<simpleblockfile filename="e080892b.au" len="180706" min="-0.993905" max="0.99356" rms="0.188008"/>
@@ -457,7 +441,7 @@
 			</sequence>
 			<envelope numpoints="0"/>
 		</waveclip>
-		<waveclip offset="337.38244689" colorindex="0">
+		<waveclip offset="336.55643294" colorindex="0">
 			<sequence maxsamples="262144" sampleformat="262159" numsamples="280506">
 				<waveblock start="0">
 					<simpleblockfile filename="e0808d28.au" len="139421" min="-0.993099" max="0.992334" rms="0.218046"/>
@@ -468,7 +452,7 @@
 			</sequence>
 			<envelope numpoints="0"/>
 		</waveclip>
-		<waveclip offset="331.02503402" colorindex="0">
+		<waveclip offset="330.19902007" colorindex="0">
 			<sequence maxsamples="262144" sampleformat="262159" numsamples="280362">
 				<waveblock start="0">
 					<simpleblockfile filename="e0808a6c.au" len="139277" min="-0.993099" max="0.992334" rms="0.218108"/>
@@ -479,7 +463,7 @@
 			</sequence>
 			<envelope numpoints="0"/>
 		</waveclip>
-		<waveclip offset="343.74312716" colorindex="0">
+		<waveclip offset="342.91711321" colorindex="0">
 			<sequence maxsamples="262144" sampleformat="262159" numsamples="752130">
 				<waveblock start="0">
 					<simpleblockfile filename="e0808aef.au" len="179933" min="-0.996841" max="1.001212" rms="0.238323"/>
@@ -496,7 +480,7 @@
 			</sequence>
 			<envelope numpoints="0"/>
 		</waveclip>
-		<waveclip offset="360.79822920" colorindex="0">
+		<waveclip offset="359.97221525" colorindex="0">
 			<sequence maxsamples="262144" sampleformat="262159" numsamples="390874">
 				<waveblock start="0">
 					<simpleblockfile filename="e0808004.au" len="159800" min="-0.99944" max="0.996083" rms="0.244288"/>
@@ -512,7 +496,7 @@
 				<controlpoint t="8.784678178964" val="0.028169035912"/>
 			</envelope>
 		</waveclip>
-		<waveclip offset="369.66158521" colorindex="0">
+		<waveclip offset="368.83557126" colorindex="0">
 			<sequence maxsamples="262144" sampleformat="262159" numsamples="399548">
 				<waveblock start="0">
 					<simpleblockfile filename="e0808ac8.au" len="209799" min="-0.997153" max="0.999255" rms="0.193131"/>
@@ -528,15 +512,36 @@
 				<controlpoint t="9.060043258329" val="0.028169035912"/>
 			</envelope>
 		</waveclip>
+		<waveclip offset="270.20097506" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="530802">
+				<waveblock start="0">
+					<simpleblockfile filename="e0808799.au" len="225717" min="-0.99944" max="0.996083" rms="0.21948"/>
+				</waveblock>
+				<waveblock start="225717">
+					<simpleblockfile filename="e0808f8f.au" len="152542" min="-0.999354" max="0.997987" rms="0.179144"/>
+				</waveblock>
+				<waveblock start="378259">
+					<simpleblockfile filename="e0808662.au" len="152543" min="-1.005814" max="0.997198" rms="0.221504"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="1">
+				<controlpoint t="5.349483693787" val="1.000000000000"/>
+			</envelope>
+		</waveclip>
 	</wavetrack>
-	<labeltrack name="Label Track" numlabels="8" height="73" minimized="0" isSelected="0">
-		<label t="0.0000000000" t1="89.6579818594" title="Intro option 1"/>
-		<label t="92.0948948195" t1="181.7624004884" title="Intro option 2"/>
-		<label t="184.0848979592" t1="265.1959863946" title="Outro 1"/>
-		<label t="196.9472335601" t1="209.7456462585" title="L3"/>
-		<label t="209.7456462585" t1="222.5440589569" title="L3"/>
-		<label t="222.5440589569" t1="235.3424716553" title="L3"/>
-		<label t="235.3424716553" t1="248.1408843537" title="L3"/>
-		<label t="248.1408843537" t1="265.1959863946" title="Outro Option 2"/>
+	<labeltrack name="Label Track" numlabels="13" height="140" minimized="0" isSelected="0">
+		<label t="270.2009750567" t1="282.2372967062" title="Intro of the song"/>
+		<label t="282.2372967062" t1="288.6369338944" title="Loop1"/>
+		<label t="288.6369338944" t1="295.0365710826" title="L1"/>
+		<label t="295.0365710826" t1="301.4370019216" title="Loop2"/>
+		<label t="301.4370019216" t1="307.8374327606" title="L2"/>
+		<label t="307.8374327606" t1="314.2366391098" title="Loop3"/>
+		<label t="314.2366391098" t1="320.6358454590" title="L3"/>
+		<label t="320.6358454590" t1="330.1990200622" title="Song transition to the next section, could be used as an outro as a loop"/>
+		<label t="330.1990200622" t1="336.5974100849" title="Loop4"/>
+		<label t="336.5564329351" t1="342.9171132072" title="L4"/>
+		<label t="342.9171132072" t1="359.9722152480" title="Outro ending option 2"/>
+		<label t="359.9722152480" t1="368.8355712571" title="Transition 1"/>
+		<label t="368.8355712571" t1="377.8956166085" title="Transition 2"/>
 	</labeltrack>
 </project>
