@@ -1,6 +1,6 @@
 <?xml version="1.0" standalone="no" ?>
 <!DOCTYPE project PUBLIC "-//audacityproject-1.3.0//DTD//EN" "http://audacity.sourceforge.net/xml/audacityproject-1.3.0.dtd" >
-<project xmlns="http://audacity.sourceforge.net/xml/" projname="Theme_data" version="1.3.0" audacityversion="2.3.2" sel0="224.4681946625" sel1="224.4681946625" vpos="0" h="0.0000000000" zoom="4.7668223180" rate="44100.0" snapto="off" selectionformat="hh:mm:ss + milliseconds" frequencyformat="Hz" bandwidthformat="octaves">
+<project xmlns="http://audacity.sourceforge.net/xml/" projname="Theme_data" version="1.3.0" audacityversion="2.3.2" sel0="260.1313657771" sel1="260.1313657771" vpos="0" h="230.5781350078" zoom="38.1345785441" rate="44100.0" snapto="off" selectionformat="hh:mm:ss + milliseconds" frequencyformat="Hz" bandwidthformat="octaves">
 	<tags>
 		<tag name="Software" value="Google"/>
 	</tags>
@@ -520,13 +520,15 @@
 					<simpleblockfile filename="e080836d.au" len="155027" min="-0.455613" max="0.433925" rms="0.091741"/>
 				</waveblock>
 			</sequence>
-			<envelope numpoints="6">
+			<envelope numpoints="8">
 				<controlpoint t="0.000000000000" val="0.056338012218"/>
 				<controlpoint t="6.175497645212" val="1.000000000000"/>
 				<controlpoint t="13.085237048666" val="1.000000000000"/>
 				<controlpoint t="16.677777080063" val="0.309859156609"/>
 				<controlpoint t="64.085560788418" val="0.309859156609"/>
 				<controlpoint t="69.120361416361" val="1.000000000000"/>
+				<controlpoint t="75.312226059655" val="1.000000000000"/>
+				<controlpoint t="81.107491365777" val="0.042253494263"/>
 			</envelope>
 		</waveclip>
 	</wavetrack>
